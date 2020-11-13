@@ -9,7 +9,7 @@ serverSocket.bind((host, port))
 
 serverSocket.listen(3)
 
-"""Test connection and present welcome message."""
+#Test connection and present welcome message.
 while True:
     clientSocket, address = serverSocket.accept()
 
