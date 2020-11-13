@@ -9,4 +9,6 @@ clientSocket.connect((host, port))
 
 message = clientSocket.recv(1024) #The maximum amount of data it will receive
 
+clientSocket.close()
 
+print(message.decode('ascii'))

@@ -22,7 +22,7 @@ while True:
 
     message = 'Thank you for connecting to the server' + '\r\n'
     
-    clientSocket.send(message.encode(ascii))
+    clientSocket.send(message.encode('ascii'))
 
     clientSocket.close()
 
